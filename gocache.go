@@ -1,11 +1,5 @@
 package gocache
 
-
-type CacheInterface interface{
-	Set()
-	Get()
-	Delete()
-}
 type Obj map[string]interface{}
 
 func New() Obj{
